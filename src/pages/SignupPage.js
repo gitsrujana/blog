@@ -160,9 +160,9 @@ const SignupPage = () => {
                   py: 1.5,
                   fontWeight: "bold",
                   borderRadius: 3,
-                  background: "linear-gradient(90deg, #FFD700 0%, #FF8C00 100%)",
+                  background: "linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%)",
                   color: "#000",
-                  "&:hover": { background: "linear-gradient(90deg, #FF8C00 0%, #FFD700 100%)" },
+                  "&:hover": { background: "linear-gradient(90deg, #92FE9D 0%, #00C9FF 100%)" },
                 }}
               >
                 {loading ? <CircularProgress size={24} color="inherit" /> : "Send OTP"}
@@ -227,9 +227,9 @@ const SignupPage = () => {
                   py: 1.5,
                   fontWeight: "bold",
                   borderRadius: 3,
-                  background: "linear-gradient(90deg, #FF512F 0%, #DD2476 100%)",
-                  color: "#fff",
-                  "&:hover": { background: "linear-gradient(90deg, #DD2476 0%, #FF512F 100%)" },
+                  background: "linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%)",
+                  color: "#000",
+                  "&:hover": { background: "linear-gradient(90deg, #92FE9D 0%, #00C9FF 100%)" },
                 }}
               >
                 {loading ? <CircularProgress size={24} color="inherit" /> : "Register"}

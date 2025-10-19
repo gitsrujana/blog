@@ -229,12 +229,15 @@ const LoginPage = () => {
               fullWidth
               sx={{
                 py: 1.5,
-                background: "linear-gradient(90deg, #FFD700 0%, #FF8C00 100%)",
+                background: "linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%)",
+                  color: "#000",
+                 
+                
                 color: "#000",
                 fontWeight: "bold",
                 borderRadius: 3,
                 textTransform: "none",
-                "&:hover": { background: "linear-gradient(90deg, #FF8C00 0%, #FFD700 100%)" },
+                "&:hover": { background: "linear-gradient(90deg, #92FE9D 0%, #00C9FF 100%)" },
               }}
             >
               {useOtp ? "Login with OTP" : "Login with Password"}
@@ -245,11 +248,12 @@ const LoginPage = () => {
               onClick={handleToggleLoginMethod}
               sx={{
                 mt: 2,
-                color: "#FFD700",
+                color: "black",
+                fontWeight:"bold",
                 borderColor: "#FFD700",
                 borderRadius: 3,
                 textTransform: "none",
-                "&:hover": { backgroundColor: "rgba(255,215,0,0.2)" },
+                "&:hover": { background: "linear-gradient(90deg, #92FE9D 0%, #00C9FF 100%)" },
               }}
               variant="outlined"
             >
